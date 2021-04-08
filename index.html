@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>What movie should I watch?</h1>
-    <script src="movies.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Random Cat API</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Because every day is Caturday!</h1>
+        </header>
+        <main>
+            <div class="buttons">
+            <button class="randomButton">Get a random cat picture!</button>
+            <h3>or</h3>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            <form>
+                <input type="text" class="input" placeholder="Category ID">
+                <button class="searchButton">See a cute cat!</button>
+            </form>
+            <div class="category-keys">
+                <h3>Categories</h3>
+                <ul>
+                    <li>1: Hats</li>
+                    <li>2: Space</li>
+                    <li>4: Sunglasses</li>
+                    <li>5: Boxes</li>
+                    <li>7: Ties</li>
+                    <li>14: Sinks</li>
+                    <li>15: Clothes</li>
+                </ul>
+            </div>
+            </div>
+            <div class="images">
+            <div class="randomCat"><img src="" class="randomCatImage"></div>
+            <div class="categoryCat"><img src="" class="categoryCatImage"></div>
+        </div>
+        </main>
+        <script src="cat.js"></script>
+    </body>
 </html>
