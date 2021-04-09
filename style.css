@@ -8,11 +8,11 @@ h1 {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 60px 0;
+    padding: 60px;
     font-size: 60px;
     box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
     font-family: 'Train One', cursive;
-    
+    letter-spacing: 2px;
 }
 
 
@@ -23,8 +23,29 @@ button {
     color: white;
     font-size: 25px;
     border-radius: 20px 20px 20px 20px;
-    padding: 10px;
-    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+    padding: 20px 50px;
+    box-shadow: 10px 10px 32px -12px rgb(88, 122, 88);;
+    margin: 50px 40%;
+    width: 20%;
+}
+p {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: #2E2E2E;
+}
+
+#myData {
+  width: 50%;
+  height: 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 60px;
+  margin: 50px 25%;
+  text-align: center;
+  color:rgb(181, 214, 181);
+  
+  text-shadow: -1px 0   rgb(88, 122, 88), 0 1px rgb(88, 122, 88), 1px 0 rgb(88, 122, 88), 0 -1px rgb(88, 122, 88);
 }
 
 

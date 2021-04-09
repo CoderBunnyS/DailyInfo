@@ -22,4 +22,5 @@ button.addEventListener("click", buttonClick)
 function buttonClick() {
     //document.getElementById("button").innerText = Date();
     getData()
+    
   }   
