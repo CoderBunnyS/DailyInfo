@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    font-family: '', sans-serif;
 }
 
 h1 {
@@ -9,13 +9,13 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 60px 0;
+    font-size: 60px;
     box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+    font-family: 'Train One', cursive;
     
 }
 
-main {
-    text-align: center;
-}
+
 
 button {
     margin: 50px auto;
