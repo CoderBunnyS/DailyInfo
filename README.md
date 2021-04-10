@@ -1,1 +1,1 @@
-A website that allows a user to pull activity ideas from the bored.com API.
+A website that allows a user to pull activity ideas from bored.com API.
