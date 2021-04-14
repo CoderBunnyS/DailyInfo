@@ -3,7 +3,7 @@ body {
     
 }
 
-h1  {
+h1 {
     background-color: rgb(181, 214, 181);
     color: white;
     text-align: center;
@@ -47,16 +47,6 @@ p {
   text-align: center;
   color:rgb(181, 214, 181);
   text-shadow: -1px 0   rgb(88, 122, 88), 0 1px rgb(88, 122, 88), 1px 0 rgb(88, 122, 88), 0 -1px rgb(88, 122, 88);
-}
-h2, h3, h4, h5, h6 {
-  background-color: rgb(181, 214, 181);
-    color: Black;
-    text-align: center;
-    margin: 0;
-    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
-    font-family: 'Train One', cursive;
-    letter-spacing: 2.5px;
-    text-shadow: -1px 0   rgb(88, 122, 88), 0 1px rgb(88, 122, 88), 1px 0 rgb(88, 122, 88), 0 -1px rgb(88, 122, 88);
 }
 
 
