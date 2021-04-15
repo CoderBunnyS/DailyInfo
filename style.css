@@ -1,6 +1,5 @@
 body {
-    margin: 30px;
-    
+    margin: 30px;   
 }
 
 h1 {
@@ -16,8 +15,6 @@ h1 {
     text-shadow: -1px 0   rgb(88, 122, 88), 0 1px rgb(88, 122, 88), 1px 0 rgb(88, 122, 88), 0 -1px rgb(88, 122, 88);
 }
 
-
-
 button {
     margin: 50px auto;
     background-color: rgb(181, 214, 181);
@@ -29,6 +26,7 @@ button {
     margin: 50px 40%;
     width: 20%;
 }
+
 p {
   text-align: center;
   margin-top: 30px;
@@ -48,8 +46,6 @@ p {
   color:rgb(181, 214, 181);
   text-shadow: -1px 0   rgb(88, 122, 88), 0 1px rgb(88, 122, 88), 1px 0 rgb(88, 122, 88), 0 -1px rgb(88, 122, 88);
 }
-
-
 
 /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
